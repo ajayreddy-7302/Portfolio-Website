@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:800px)"
+      href="tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:530px)"
+      href="phone.css"
+    />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+     <!-- home -->
+    <section id="home">
+      <div class="main">
+        <h1 class="headings"><span id="name_">PORTFOLIO </span><br/> RONTALA<br />AJAY REDDY</h1>
+        <button class="btn"><a href="#contact_details">HIRE ME</a></button>
+      </div>
+    </section>
+    <!-- about section -->
+    <section id="about">
+      <h1 class="headings" id="heading">ABOUT ME</h1>
+      <div id="pic">
+        <img src="my_picture.jpg" alt="" />
+        <div class="intro_all">
+        <div class="intro">
+          <h2 class="details">BASIC INFORMATION</h2>
+          <p>
+            Hey there!I am Rontala Ajay Reddy pursuing computer science and
+            engineering branch in nit durgapur.Currently I am in my 4 th semester.I come from Telangana state.
+            I am into web development for 5 months now.I am about to learn javascript.
+            <br></br>
+            <h3 class="skills">SKILLS</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </p>
+        </div>
+        <div class="intro">
+          <h2 class="details">EDUCATION</h2>
+          <p>
+            <ul>
+              <li><span>2021-2025 :</span>NIT DURGAPUR </li>
+              <li>cgpa:8.69(upto 3 rd semester)</li>
+              <li><span>2018-2020 :</span>SRI GAYATRI(TELANGANA BOARD)</li>
+              <li>percentage:98.8% </li>
+              <li><span>2018 :</span>SHATAVAHANA SCHOOL(TELANGANA BOARD)</li>
+              <li>cgpa:10</li>
+            </ul>
+          </p>
+        </div>
+        <div class="intro">
+          <h2 class="details">CONTACT DETAILS</h2>
+          <p>
+            <ul>
+              <li><span>email :</span>2002rontalaajayreddy@gmail.com</li>
+              <li><span>phone :</span>9347995381</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- portfolio section -->
+    <section id="portfolio">
+      <h1 class="headings">PORTFOLIO</h1>
+      <div class="row">
+        <div class="box" id="web-dezign-icon">
+          <img src="web-dezign-icon.png" alt="" />
+          <h1 class="headings">
+            WEBSITE <br />
+            DESIGN
+          </h1>
+          <p>
+            I am capable of designing websites which are user-friendly,good-looking,responsive to various devices 
+            and modern.I primarily think about the website outlook and have an idea of how a website should look.Then I 
+            proceed to build the website. 
+          </p>
+        </div>
+        <div class="box" id="web-icon">
+          <img src="web-icon.png" alt="" />
+          <h1 class="headings">FRONT END <br />DEVELOPMENT</h1>
+          <p>
+            My interest lies in the front-end web development where I can preferably choose outlook,colours and numerous other tings and 
+            make a really good website.
+          </p>
+        </div>
+        <div class="box" id="content">
+          <img src="content-icon.png" alt="" />
+          <h1 class="headings">CONTENT WRITING</h1>
+          <p>
+            I am also capable of writing content on different areas.This ability of mine can also be useful 
+            in building a website in particularly those in which content writing is needed(clubs pages in a college).
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+      <h1 class="headings">CONTACT ME</h1>
+      <form action="" class="form">
+        <input
+          type="text"
+          name="name"
+          class="input"
+          placeholder="Enter Your Name" required
+        />
+        <input
+          type="email"
+          name="email"
+          class="input"
+          placeholder="Enter your email"
+        />
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Message"
+        ></textarea>
+        <input type="submit" value="SEND" id="send" />
+      </form>
+    </section>
+    <!-- footer section -->
+    <section id="contact_details">
+    <footer>
+      <div class="footer">
+        <p>contact details :</p>
+        <ul>
+          <li>email:2002rontalaajayreddy@gmail.com</li>
+          <li>phone:9347995381</li>
+          <li>
+            <a href="https://www.instagram.com/ajayreddyrontala" target="_blank"
+              >instagram</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    </section>
+  </body>
+</html>
